@@ -20,3 +20,9 @@ for char in range(1, num + 1):
 print(password)
 random.shuffle(password)
 print(password)
+pw=""
+for i in password:
+    pw+=i
+    
+print(pw)
+    
